@@ -46,7 +46,10 @@
 	<link href="<?=base_url('assets/css/pages/dashboard-analytics.css')?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/pages/users.css')?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/plugins/extensions/ext-component-ratings.css')?>" rel="stylesheet">
+	<link href="<?=base_url('assets/css/plugins/extensions/swiper.css')?>" rel="stylesheet">
+	<link href="<?=base_url('assets/css/pages/banner.css')?>" rel="stylesheet">
 	<!-- END:  CSS-->
+
 	<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 
 </head>

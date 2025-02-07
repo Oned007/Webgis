@@ -10,7 +10,7 @@
 <!-- JS Vendors -->
 <script src="<?=base_url('assets/js/vendors/js/vendors.min.js')?>"></script>
 <script src="<?=base_url('assets/js/vendors/js/forms/select/select2.full.min.js')?>"></script>
-
+<script src="<?=base_url('assets/vendor/js/extensions/swiper.min.js')?>"></script>
 <script src="<?=base_url('assets/js/vendors/js/ui/prism.min.js')?>"></script>
 <script src="<?=base_url('assets/js/vendors/js/tables/datatable/datatables.min.js')?>"></script>
 <script src="<?=base_url('assets/js/vendors/js/tables/datatable/datatables.bootstrap4.min.js')?>"></script>
@@ -21,6 +21,7 @@
 <!-- Theme JS -->
 <script src="<?=base_url('assets/js/core/app-menu.js')?>"></script>
 <script src="<?=base_url('assets/js/core/app.js')?>"></script>
+<script src="<?=base_url('assets/js/scripts/components.js')?>"></script>
 
 <!-- Page JS -->
 <script src="<?=base_url('assets/js/scripts/datatables/datatable.js')?>"></script>
@@ -28,6 +29,9 @@
 <script src="<?=base_url('assets/js/scripts/pickers/dateTime/pick-a-datetime.js')?>"></script>
 <script src=" <?=base_url('assets/js/scripts/extensions/ext-component-ratings.js')?>"></script>
 <script src=" <?=base_url('assets/js/vendors/js/extensions/jquery.rateyo.min.js')?>"></script>
+<script src="<?=base_url('assets/js/scripts/forms/select/form-select2.js')?>"></script>
+<script src="<?=base_url('assets/js/scripts/extensions/swiper.js')?>"></script>
+<script src="<?=base_url('assets/js/scripts/pages/dashboard-ecommerce.js')?>"></script>
 <script src="<?=base_url('assets/js/scripts/forms/select/form-select2.js')?>"></script>
 
 <!-- Custom Theme Scripts -->

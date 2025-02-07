@@ -13,7 +13,7 @@
 	<!-- CSS ASSETS  -->	
 	<link href="<?=base_url('assets/css/vendors/css/vendors.min.css')?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/vendors/css/charts/apexcharts.css')?>" rel="stylesheet">
-	<link href="<?=base_url('assets/css/vendors/css//forms/select/select2.min.css')?>" rel="stylesheet">
+	<link href="<?=base_url('assets/css/vendors/css/forms/select/select2.min.css')?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/vendors/css/extensions/swiper.min.css')?>" rel="stylesheet">	
 	<link href="<?=base_url('assets/css/bootstrap.css')?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/bootstrap-extended.css')?>" rel="stylesheet">	

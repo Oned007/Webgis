@@ -39,6 +39,18 @@ class Asrama extends CI_Controller {
 		$data['title']=$datacontent['title'];
 		$this->load->view('admin/layout/html',$data);
 	}
+	public function detail($id)
+	{
+		$asrama = $this->Model->get_by_id($id);
+		$datacontent['asrama'] = $asrama;
+		$datacontent['id']=$id;
+		$datacontent['title']='Detail asrama';
+		$datacontent['datatable'] = $this->Model->get_by_id($id);
+		$datacontent['fotos'] = explode(',', $asrama->foto_asrama);
+		$data['content']=$this->load->view('user/detail',$datacontent,TRUE);
+		$data['title']=$datacontent['title'];
+		$this->load->view('admin/layout/html',$data);
+	}
 	public function simpan()
 	{
 		if ($this->input->post()) {
@@ -170,6 +182,7 @@ class Asrama extends CI_Controller {
 			$r[] = $row->long_asrama;
 			$r[] = '<div class="btn-group">
 								<a href="'.site_url($url.'/form/ubah/'.$row->id_asrama).'" class="btn btn-info"><i class="fa fa-edit"></i> Ubah</a>
+								<a href="'.site_url($url.'/detail/'.$row->id_asrama).'" class="btn btn-success"><i class="fa fa-edit"></i> Detail</a>
 								<a href="'.site_url($url.'/hapus/'.$row->id_asrama).'" class="btn btn-danger" onclick="return confirm(\'Hapus data?\')"><i class="fa fa-trash"></i> Hapus</a>
 							</div>';
 			$output['aaData'][] = $r;				
